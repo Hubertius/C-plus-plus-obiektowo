@@ -1,0 +1,2 @@
+C:\C++\Programowanie obiektowe\Zjazdy\Hello\Debug\Hello.exe
+C:\C++\Programowanie obiektowe\Zjazdy\Hello\Debug\Hello.pdb

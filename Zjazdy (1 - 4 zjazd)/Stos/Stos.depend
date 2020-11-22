@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1604758156 source:c:\c++\programowanie obiektowe\zjazdy\stos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"stos.h"
+
+1604759944 source:c:\c++\programowanie obiektowe\zjazdy\stos\stos.c
+	<stdio.h>
+	<stdlib.h>
+	"stos.h"
+
+1604759937 c:\c++\programowanie obiektowe\zjazdy\stos\stos.h
+
+1604758156 source:c:\c++\programowanie obiektowe\hubertius\c-plus-plus-obiektowo\zjazdy (1 - 4 zjazd)\stos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"stos.h"
+
+1604759937 c:\c++\programowanie obiektowe\hubertius\c-plus-plus-obiektowo\zjazdy (1 - 4 zjazd)\stos\stos.h
+

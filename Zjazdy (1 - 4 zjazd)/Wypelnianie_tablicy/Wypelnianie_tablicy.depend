@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1602944226 source:c:\c++\programowanie obiektowe\zjazdy\wypelnianie_tablicy\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Wypelnianie_tablicy.h"
+
+1602944261 c:\c++\programowanie obiektowe\zjazdy\wypelnianie_tablicy\wypelnianie_tablicy.h
+
+1602944547 source:c:\c++\programowanie obiektowe\zjazdy\wypelnianie_tablicy\wypelnianie_tablicy.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+

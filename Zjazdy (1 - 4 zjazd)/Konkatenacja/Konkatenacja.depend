@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1602338759 source:c:\c++\programowanie obiektowe\zjazdy\konkatenacja\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

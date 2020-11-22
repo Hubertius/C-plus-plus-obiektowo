@@ -1,0 +1,2 @@
+C:\C++\Programowanie obiektowe\Hubertius\C-plus-plus-obiektowo\Punkt 2.0\Debug\Punkt 2.0.exe
+C:\C++\Programowanie obiektowe\Hubertius\C-plus-plus-obiektowo\Punkt 2.0\Debug\Punkt 2.0.pdb

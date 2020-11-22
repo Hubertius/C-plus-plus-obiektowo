@@ -1,0 +1,3 @@
+﻿  stos.cpp
+C:\C++\Programowanie obiektowe\Hubertius\C-plus-plus-obiektowo\Stos\stos.cpp(48): warning C4715: "Stos::expandHeap”: niewszystkie ścieżki kodu zwracają wartość
+  Stos.vcxproj -> C:\C++\Programowanie obiektowe\Hubertius\C-plus-plus-obiektowo\Stos\Debug\Stos.exe
