@@ -126,6 +126,10 @@ int Complex :: negation(Complex &first, Complex &second)
     }
     return choose_first_or_second;
 }
+Complex::~Complex()
+{
+    
+}
 
 
 

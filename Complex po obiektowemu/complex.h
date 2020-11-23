@@ -17,6 +17,7 @@ class Complex
         bool operator==(const Complex & obj_second);
         bool operator!=(const Complex &obj_second);
         int negation(Complex &first, Complex &second);
+        ~Complex();
 };
 
 int choose_operation();
