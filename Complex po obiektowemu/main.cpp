@@ -6,15 +6,17 @@ int main()
 {
     Complex z1(1.0,-1.0);
     Complex z2(-1.0,1.0);
-    z1.input();
-    z2.input();
-    z1.read();
-    z2.read();
+    z1.input_re();
+    z1.input_im();
+    z2.input_re();
+    z2.input_im();
+    z1.read_re_im();
+    z2.read_re_im();
     Complex z3;
     int choice = choose_operation();
     if(choice == -1)
     {
-        cout <<"Error! Program will shutdown immediatly!" << endl;
+        cout <<"Error! Program will shutdown immediately!" << endl;
         return 1;
     }
     else if(choice == 0)
@@ -25,42 +27,42 @@ int main()
     else if(choice == 1)
     {
         z3 = z1 + z2;
-        z3.read();
+        z3.read_re_im();
     }
     else if(choice == 2)
     {
         z3 = z1 - z2;
-        z3.read();
+        z3.read_re_im();
     }
     else if(choice == 3)
     {
         z3 = z1 * z2;
-        z3.read();
+        z3.read_re_im();
     }
     else if(choice == 4)
     {
         z3 = z1 / z2;
-        z3.read();
+        z3.read_re_im();
     }
     else if(choice == 5)
     {
-        z3 = z1 + z2;
-        z1 = z3;
+        z1 += z2;
+        z1.read_re_im();
     }
     else if(choice == 6)
     {
-        z3 = z1 - z2;
-        z1 = z3;
+        z1 -= z2;
+        z1.read_re_im();
     }
     else if(choice == 7)
     {
-        z3 = z1 * z2;
-        z1 = z3;
+        z1 *= z2;
+        z1.read_re_im();
     }
     else if(choice == 8)
     {
-        z3 = z1 / z2;
-        z1 = z3;
+        z1 /= z2;
+        z2.read_re_im();
     }
     else if(choice == 9)
     {
@@ -99,11 +101,11 @@ int main()
         }
         else if(check == 1)
         {
-            z1.read();
+            z1.read_re_im();
         }
         else
         {
-            z2.read();
+            z2.read_re_im();
         }
     }
     return 0;
